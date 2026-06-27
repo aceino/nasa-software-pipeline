@@ -1,0 +1,10 @@
+version : 2 
+
+sources : 
+  - name : nasa
+    database : rest_nasa_pipeline
+    schema : nasa
+    tables : 
+      - name : visualization
+        description : "raw table"
+
