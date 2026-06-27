@@ -1,10 +1,10 @@
 # 🚀 NASA Software Visualization Pipeline
 
-An end-to-end data pipeline that ingests NASA software data from a public API, transforms it with dbt, and visualizes it in Looker Studio.
+An end-to-end data pipeline that ingests NASA software data from a public API, transforms it with dbt, and visualizes it in Looker Studio also build with Claude.
 
 ## 📊 Dashboard
 
-[View Live Dashboard](https://datastudio.google.com/reporting/2f7a68b3-6026-4a36-b3ed-8d55cc397761) ← replace with your Looker Studio link
+[View Live Dashboard](https://datastudio.google.com/reporting/2f7a68b3-6026-4a36-b3ed-8d55cc397761) 
 
 ## 🛠️ Tech Stack
 
@@ -27,7 +27,6 @@ NASA API → dlt → DuckDB → dbt staging → CSV → Google Sheets → Looker
 ├── rest_nasa_pipeline.py     # dlt pipeline to ingest NASA API data
 ├── _stg_nasa_software.sql    # dbt staging model
 ├── final_nasa_software.csv   # exported data for Looker Studio
-└── README.md
 ```
 
 ## 🚀 How to Run
