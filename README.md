@@ -16,7 +16,7 @@ An end-to-end data pipeline that ingests NASA software data from a public API, t
 | Visualization | Looker Studio |
 
 ## 🏗️ Architecture
-
+    
 ```
 NASA API → dlt → DuckDB → dbt staging → CSV → Google Sheets → Looker Studio
 ```
